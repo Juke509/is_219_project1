@@ -1,0 +1,21 @@
+{
+  "name": "is_219_project1",
+  "version": "1.0.0",
+  "description": "IS 219 Project 1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "coverage": "jest --coverage",
+    "coveralls": "jest --coverage && cat ./tests/coverage/lcov.info | coveralls"
+  },
+  "keywords": [],
+  "author": "Justin Bramwell",
+  "email": "ebj3@njit.edu",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "coveralls": "^3.0.9",
+    "jest": "^25.1.0"
+  }
+}
